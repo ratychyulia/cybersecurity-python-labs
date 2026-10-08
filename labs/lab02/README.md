@@ -11,3 +11,4 @@
 
 ```bash
 pip install -r requirements.txt
+#Lab 2 completed
