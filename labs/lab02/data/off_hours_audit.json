@@ -1,0 +1,185 @@
+{
+    "metadata": {
+        "source_file": "labs/lab02/data/activity.csv",
+        "analyzed_at": "2026-10-08T18:26:05.105976+00:00",
+        "total_records": 29,
+        "after_hours_flag": false
+    },
+    "off_hours_activity_alerts": [
+        {
+            "user_id": "u002",
+            "timestamp": "2026-09-21T23:40:00",
+            "period": "Night (22:00 - 06:00)",
+            "action": "DOWNLOAD",
+            "resource": "/finance/payroll.csv",
+            "ip": "10.0.1.20"
+        },
+        {
+            "user_id": "u003",
+            "timestamp": "2026-09-22T05:20:00",
+            "period": "Night (22:00 - 06:00)",
+            "action": "READ",
+            "resource": "/prod/secrets",
+            "ip": "10.0.1.30"
+        },
+        {
+            "user_id": "u005",
+            "timestamp": "2026-09-24T22:05:00",
+            "period": "Night (22:00 - 06:00)",
+            "action": "DOWNLOAD",
+            "resource": "/finance/budget.xlsx",
+            "ip": "10.0.1.50"
+        },
+        {
+            "user_id": "u001",
+            "timestamp": "2026-09-26T10:00:00",
+            "period": "Saturday",
+            "action": "READ",
+            "resource": "/docs/weekend.txt",
+            "ip": "10.0.1.10"
+        },
+        {
+            "user_id": "u003",
+            "timestamp": "2026-09-27T13:00:00",
+            "period": "Sunday",
+            "action": "DELETE",
+            "resource": "/tmp/report.csv",
+            "ip": "10.0.1.30"
+        }
+    ],
+    "mass_critical_anomalies": [
+        {
+            "user_id": "u007",
+            "total_requests": 18,
+            "duration_seconds": 2040,
+            "details": [
+                {
+                    "timestamp": "2026-09-23 12:00:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/prod/secrets",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:02:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/finance/payroll.csv",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:04:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/admin/users",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:06:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/prod/secrets",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:08:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/finance/payroll.csv",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:10:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/admin/users",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:12:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/prod/secrets",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:14:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/finance/payroll.csv",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:16:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/admin/users",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:18:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/prod/secrets",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:20:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/finance/payroll.csv",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:22:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/admin/users",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:24:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/prod/secrets",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:26:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/finance/payroll.csv",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:28:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/admin/users",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:30:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/prod/secrets",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:32:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/finance/payroll.csv",
+                    "ip": "10.0.1.77"
+                },
+                {
+                    "timestamp": "2026-09-23 12:34:00",
+                    "user_id": "u007",
+                    "action": "READ",
+                    "resource": "/admin/users",
+                    "ip": "10.0.1.77"
+                }
+            ]
+        }
+    ]
+}
